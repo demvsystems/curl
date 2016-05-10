@@ -1,0 +1,32 @@
+{
+    "name": "demvsystems/soap-client",
+    "license": "MIT",
+    "description": "Soap-Client based on cURL",
+    "type": "library",
+    "homepage": "https://github.com/demvsystems/soap-client",
+    "keywords": [
+        "soap",
+        "soap-client"
+    ],
+    "authors": [
+        {
+            "name": "DEMV-Systems",
+            "email": "developer@demv.de",
+            "homepage": "https://github.com/demvsystems"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.*.*"
+    },
+    "autoload": {
+        "psr-4": {"Client\\": "src/"}
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
