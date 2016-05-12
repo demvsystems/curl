@@ -1,6 +1,6 @@
 <?php
 
-use Client\SoapClient;
+use Demv\Curl\SoapClient;
 
 class SoapClientTest extends PHPUnit_Framework_TestCase
 {

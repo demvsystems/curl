@@ -1,12 +1,12 @@
 <?php
 
-namespace Client;
+namespace Demv\Curl;
 
 /**
  * Class SoapClient
  * @package Client
  */
-class SoapClient extends CurlClient
+class SoapClient extends Client
 {
     /**
      * XOP
@@ -26,7 +26,8 @@ class SoapClient extends CurlClient
      *
      * @param string $type
      */
-    public function __construct(/*string */$type = '') // TODO: PHP 7
+    public function __construct( /*string */$type = '') // TODO: PHP 7
+
     {
         parent::__construct();
 

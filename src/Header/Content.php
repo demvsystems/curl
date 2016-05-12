@@ -1,6 +1,6 @@
 <?php
 
-namespace Client\Header;
+namespace Demv\Curl\Header;
 
 /**
  * Class Content

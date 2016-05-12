@@ -1,14 +1,14 @@
 <?php
 
-namespace Client;
+namespace Demv\Curl;
 
-use Client\Header\HeaderProvider;
+use Demv\Curl\Header\HeaderProvider;
 
 /**
  * Class CurlClient
  * @package Client
  */
-class CurlClient
+class Client
 {
     /**
      * @var array
