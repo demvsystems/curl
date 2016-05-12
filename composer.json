@@ -1,12 +1,14 @@
 {
-    "name": "demvsystems/soap-client",
+    "name": "demvsystems/curl",
     "license": "MIT",
-    "description": "Soap-Client based on cURL",
+    "description": "cURL and cURL based Soap-Client for PHP",
     "type": "library",
-    "homepage": "https://github.com/demvsystems/soap-client",
+    "homepage": "https://github.com/demvsystems/curl",
     "keywords": [
         "soap",
-        "soap-client"
+        "soap-client",
+        "curl",
+        "curl-client"
     ],
     "authors": [
         {
