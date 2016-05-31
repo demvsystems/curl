@@ -5,7 +5,7 @@ namespace Demv\Curl;
 use Demv\Curl\Header\HeaderProvider;
 
 /**
- * Class CurlClient
+ * Class Client
  * @package Client
  */
 class Client
@@ -42,7 +42,7 @@ class Client
     private $_headerProvider = null;
 
     /**
-     * BaseClient constructor.
+     * Client constructor.
      */
     public function __construct()
     {
@@ -50,7 +50,7 @@ class Client
     }
 
     /**
-     * BaseClient destructor
+     * Client destructor
      */
     public function __destruct()
     {
@@ -123,7 +123,7 @@ class Client
     /**
      * @param array $header
      *
-     * @return CurlClient
+     * @return Client
      */
     public function setHeader(array $header)
     {
@@ -153,7 +153,7 @@ class Client
     /**
      * @param bool $fetch
      *
-     * @return CurlClient
+     * @return Client
      */
     public function fetchHeader(bool $fetch)
     {
@@ -163,7 +163,7 @@ class Client
     /**
      * @param bool $verbose
      *
-     * @return CurlClient
+     * @return Client
      */
     public function verbose(bool $verbose)
     {
@@ -173,7 +173,7 @@ class Client
     /**
      * @param bool $post
      *
-     * @return CurlClient
+     * @return Client
      */
     public function usePost(bool $post)
     {
@@ -181,7 +181,7 @@ class Client
     }
 
     /**
-     * @return CurlClient
+     * @return Client
      */
     public function useDefaults()
     {
