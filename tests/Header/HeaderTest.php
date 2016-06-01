@@ -5,8 +5,8 @@ use Demv\Curl\Header\Header;
 class HeaderTest extends PHPUnit_Framework_TestCase
 {
     protected $headerStr = 'Connection';
-    protected $value = 'Keep-Alive';
-    protected $header = null;
+    protected $value     = 'Keep-Alive';
+    protected $header    = null;
 
     public function setUp()
     {
@@ -44,7 +44,7 @@ class HeaderTest extends PHPUnit_Framework_TestCase
 
     public function testSetContentWithString()
     {
-        $newContent = 'text/xml;charset=UTF-8';
+        $newContent     = 'text/xml;charset=UTF-8';
         $expectedResult = ['text/xml', 'charset=UTF-8'];
         $this->header->setContent($newContent);
         $content = $this->header->getContent();

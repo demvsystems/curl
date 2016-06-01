@@ -4,7 +4,7 @@ use Demv\Curl\Header\Content;
 
 class ContentTest extends PHPUnit_Framework_TestCase
 {
-    protected $type = 'text/xml';
+    protected $type    = 'text/xml';
     protected $content = null;
 
     public function setUp()
@@ -14,7 +14,7 @@ class ContentTest extends PHPUnit_Framework_TestCase
 
     public function testType()
     {
-        $type = 'application/pdf';
+        $type    = 'application/pdf';
         $content = $this->content->type($type)->getContent();
         $this->assertCount(2, $content);
         $this->assertEquals('type=' . $type, $content[1]);
